@@ -12,3 +12,7 @@ variable "layers" {
 variable "s3_bucket" {
   type    = string
 }
+variable "s3_prefix" {
+  type    = string
+  default = null
+}
